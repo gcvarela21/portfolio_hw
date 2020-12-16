@@ -19,7 +19,7 @@
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
        </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse class d-flex justify-content-end" id="navbarNav">
        <ul class="navbar-nav">
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="../index.html">Portfolio</a>
@@ -38,17 +38,41 @@
 
 
 <body>
-  <div class="container">
+  <!-- !!!!!!!! still need for figure out how to justify body to the left better  !!!!!!!!    -->
+    <div id="floaty" class="container">
+
+
+  <!-- all of thses rows and classes will probaly end up being a sub row "nested" to be more narrow like the sample photos in the images folder. all those samples have left justifed bodys -->
     <div class="row">
-      <div class="col-">
-        <div class="page-header">
-          <h1>Contact Me</h1>
+  <!-- above the first div class acts like container all visible elements are in the first column of th efirst row. -->
+      <div id="whiteOut" class="col-12 col-md-7 col-lg-7">
+  <!-- the div of id="whiteOut" is the first colum of the first row and condeses the visble elements to the desired size. The id is used to disnguise the background of the visible column as white -->
+        <div class="row">
+  <!-- the row in the div above establishes the nested row and single column for all the visble content -->
+            <div  class="col-12 col-md-12 col-lg-12">
+  <!-- the page header spans acros the who column at all sizes -->
+              <div class="page-header">
+                <h1>Contact Me</h1>
+              </div>
+            </div>
+  <!-- below the column spans across the column in xs med and large screen sizes below creates the line element below the page-header-->
+            <div id="lineIt" class="col-12 col-md-12 col-lg-12">
+              <!-- grey line on the page -->
+            </div>
+  <!-- below all image colums are sized at 6 to enable two images side by side in the medium and larger screens. xs screens will stretch arcross the column it is nested in.  gy-3 modifies the gutter for ideal spacing of images-->
+
+
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! contact form here -->
+
+
         </div>
       </div>
+  <!-- the empty div below is a space holder for the second column in the first row -->
+      <div class="col-12 col-md-5 col-lg-5 ">
+        <!-- col- palce holder for negative space -->
+      </div>
     </div>
-
   </div>
-
 
     <!-- Optional JavaScript; choose one of the two! -->
 
