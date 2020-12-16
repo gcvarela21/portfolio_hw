@@ -3,7 +3,7 @@ Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 This project is an exercise in using Bootstrap's grid system to replicate sample images for a responsive portfolio web site.
 ​
-![Sample Page](img/9920contact.png)
+![Sample Page](https://gcvarela21.github.io/varela_portfolio/img/992-index.png)
 ​
 ## **Built With**
 * [HTML](https"//w3schools.com)
@@ -48,22 +48,45 @@ Nested Rows and Columns created the spacing and layout for the responsive elemen
   </div>
 </div>
 ```
+______________________________________________________________________________
 ​
+
+​**Code Snippet**
+
+​For the about page finding a reference for getting the text to wrap around an image was a challege. I opted for an image float and text justification to do the trick.
 ​
+```
+    <title>About Gloria Varela</title>
+
+    <style>
+
+    img {
+        float: left;
+        margin: 5px;
+        padding-right: 10px;
+        padding-top: 10px;
+
+    }
+    p {
+        text-align: justify;
+        font-size: 25px;
+    }
+    </style>
+```
 ______________________________________________________________________________
 ​
 ​
 #### **Deployed Link**
 ​
-* [See Live Site](https://github.com/gcvarela21/varela_portfolio)
+* [See Live Site on Git Hub](https://gcvarela21.github.io/varela_portfolio/)
 ​
-### **Author Links**
+### **The Author Links**
 ​
 * **Gloria C Varela**
 
 - [Link to Portfolio Site](https://www.glo.digital)
 - [Link to Github](https://github.com/gcvarela21)
-- [Link to LinkedIn](www.linkedin.com/in/glovarela)
+- [Link to LinkedIn](https://www.linkedin.com/in/glovarela)
 ​
 ​
 ​
