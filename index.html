@@ -15,6 +15,7 @@
   </head>
 
   <header>
+<!-- boot strap nav bar template -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Gloria Varela</a>
@@ -39,46 +40,49 @@
   </header>
 
   <body>
+<!-- !!!!!!!! still need for figure out how to justify body to the left !!!!!!!!    -->
     <div class="container">
 
 <!-- all of thses rows and classes will probaly end up being a sub row "nested" to be more narrow like the sample photos in the images folder. all those samples have left justifed bodys -->
+  <div class="row">
+<!-- above the first div class acts like container all visible elements are in the first column of th efirst row. -->
+    <div id="whiteOut" class="col-12 col-md-7 col-lg-7">
+<!-- the div of id="whiteOut" is the first colum of the first row and condeses the visble elements to the desired size. The id is used to disnguise the background of the visible column as white -->
       <div class="row">
-        <div class="col-md-8">
-          <div class="page-header">
-            <h1>Portfolio</h1>
+<!-- the row in the div above establishes the nested row and single column for all the visble content -->
+          <div  class="col-12 col-md-12 col-lg-12">
+<!-- the page header spans acros the who column at all sizes -->
+            <div class="page-header">
+              <h1>Portfolio</h1>
+            </div>
           </div>
-        </div>
+  <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`line goes here -->
+<!-- below all image colums are sized at 6 to enable two images side by side in the medium and larger screens. xs screens will stretch arcross the column it is nested in.  gy-3 modifies the gutter for ideal spacing of images-->
+          <div class="col-12 col-md-6 col-lg-6  gy-3">
+            <img src="http://placehold.it/350x350" alt="Placeholder" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 gy-3">
+            <img src="http://placehold.it/350x350" alt="Placeholder" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 gy-3">
+            <img src="http://placehold.it/350x350" alt="Placeholder" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-6  gy-3">
+            <img src="http://placehold.it/350x350" alt="Placeholder" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-6  gy-3">
+            <img src="http://placehold.it/350x350" alt="Placeholder" />
+          </div>
       </div>
-
-      <div class="row g-4 gy-4">
-          <div class="col-6">
-            <img src="http://placehold.it/350x350" alt="Placeholder" />
-          </div>
-          <div class="col-6">
-            <img src="http://placehold.it/350x350" alt="Placeholder" />
-          </div>
-          <div class="col-6">
-            <img src="http://placehold.it/350x350" alt="Placeholder" />
-          </div>
-          <div class="col-6">
-            <img src="http://placehold.it/350x350" alt="Placeholder" />
-          </div>
-          <div class="col-6">
-            <img src="http://placehold.it/350x350" alt="Placeholder" />
-          </div>
-
-      </div>
-
-      <!-- <div class="row">
-        <div class="col">
-          <img src="http://placehold.it/350x350" alt="Placeholder" />
-        </div>
-        <div class="col">
-          <img src="http://placehold.it/350x350" alt="Placeholder" />
-        </div>
-      </div> -->
-
     </div>
+<!-- the empty div below is a space holder for the second column in the first row -->
+    <div class="col-12 col-md-5 col-lg-5 ">
+      <!-- col- palce holder for negative space -->
+    </div>
+  </div>
+
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

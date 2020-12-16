@@ -1,13 +1,15 @@
 
   body {
     background-color: #ebebeb;
+  }
+  .container{
+    margin-top: 50px;
 
   }
-  .container {
-    background-color: white;
-    margin-top: 50px;
-  }
   .page-header{
-    background-color: #505050;
+
     margin-top: 20px;
+  }
+  #whiteOut {
+    background-color: white;
   }
