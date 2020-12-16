@@ -13,3 +13,11 @@
   #whiteOut {
     background-color: white;
   }
+
+  #lineIt{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    width: 95%;
+    border-bottom: 1px solid #ebebeb;
+    }
